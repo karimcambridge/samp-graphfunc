@@ -32,7 +32,7 @@
 */
 
 // Include's version.
-#define _graphic_version			(0x01A)
+#define _graphic_version			(0x01B)
 #define GRAPHIC::               	GRAPHIC_
 // Copy of an 'INVALID' inside a_samp.inc, with the tag 'Graph:'.
 #define INVALID_GRAPHIC_ID          (Graph:-1)
