@@ -1,12 +1,12 @@
-#SA-MP Graph Func
+# SA-MP Graph Func
 
-This include makes it easier to add shapes (and other sorts of graphics) to your server.
+This include makes it easier to add shapes/graphs and other sorts of graphics to your server.
 
 As long as you have an algorithm for a shape it can be implemented easy with this.
 
--- Original post and function list with help
+## Original post on SA-MP Forums
 
-http://forum.sa-mp.com/showthread.php?t=253778
+	http://forum.sa-mp.com/showthread.php?t=253778
 
 # Resources
 
@@ -29,7 +29,7 @@ native GRAPHIC::OtherXYAxis(oper, playerid, Graph:_id, xAxis, yAxis);
 
 ## Callbacks:
 
-```forward GRAPHIC::Init() // Automatically done in the include ```
+```forward GRAPHIC::Init() // Automatically forwarded in the include ```
 
 This callback should be use to create each graph, for example:
 
@@ -48,7 +48,7 @@ new
 
 		GRAPHIC::AddPoint(MY_GRAPH, 50,  50, 0x25478588);
 
-		// other graphic creations..				
+		// other graphic creations ..
 
 		return 1;
 	}
@@ -56,7 +56,7 @@ new
 
 ## Restrictions:
 
-There are some sense restrictions when creating a graphic. (at least with this script)
+There are some sense restrictions when creating a graphs.
 You can NOT create graphs in this terms:
 
 ```
